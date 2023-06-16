@@ -1,0 +1,26 @@
+body {
+  margin-top: 20px;
+}
+
+header {
+  border-bottom: 2px solid #EDEDED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.profile-pic {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid red;
+  background-color: #EDEDED;
+}
