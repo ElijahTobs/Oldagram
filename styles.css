@@ -1,5 +1,6 @@
 body {
   margin-top: 20px;
+  background-color: #F5F5F5;
 }
 
 .flex {
@@ -7,7 +8,6 @@ body {
 }
 
 section {
-  border: 1px solid red;
   margin-bottom: 15px;
 }
 
@@ -77,4 +77,8 @@ p {
 
 .icons i {
   padding-right: 10px;
+}
+
+.interaction {
+  padding-bottom: 10px;
 }
