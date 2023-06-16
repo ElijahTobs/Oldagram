@@ -6,6 +6,11 @@ body {
   display: flex;
 }
 
+section {
+  border: 1px solid red;
+  margin-bottom: 15px;
+}
+
 .align-center {
   align-items: center;
 }
@@ -40,7 +45,7 @@ header {
 }
 
 p {
-  font-size: 12px;
+  font-size: 13px;
   margin: 0;
 }
 
@@ -48,12 +53,28 @@ p {
   margin-left: 10px;
 }
 
-.name {
+/* .name {
   font-weight: 700;
-  font-size: 13px;
+} */
+
+.location {
+  font-size: 12px;
 }
 
 .main-img img {
   width: 400px;
   height: 400px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.interaction p,
+.icons {
+  margin: 10px;
+}
+
+.icons i {
+  padding-right: 10px;
 }
