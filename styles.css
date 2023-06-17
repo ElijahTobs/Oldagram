@@ -33,7 +33,7 @@ header {
   border-radius: 50%;
 }
 
-.container {
+#container {
   margin: 0 auto;
   width: 400px;
   /* border: 1px solid red; */

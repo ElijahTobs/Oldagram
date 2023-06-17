@@ -1,4 +1,5 @@
-const container = document.getElementById("container")
+const containerEl = document.getElementById("container")
+// const sectionEl = document.getElementById("section")
 
 const posts = [
   {
@@ -48,8 +49,7 @@ function renderCard() {
     const likes = posts[x].likes
 
     let card = `
-      <section class="bg-white>
-      
+      <section class="bg-white">
         <div class="top flex align-center bg-white">
           <img class="small-img" src=${avatar} alt="">
           <div class="details">
@@ -82,4 +82,9 @@ function renderCard() {
 
 renderCard()
 
-container.innerHTML += getCards
+let cardEl = document.createElement("div")
+cardEl.innerHTML = getCards
+
+containerEl.append(cardEl)
+
+// containerEl.innerHTML += getCards
