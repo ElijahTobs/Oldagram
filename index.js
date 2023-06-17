@@ -44,7 +44,33 @@ function renderCard() {
     const likes = posts[x].likes
 
 
-   
+    let card = `
+      <section class="bg-white">
+        <div class="top flex align-center bg-white">
+          <img class="small-img" src="${posts}" alt="">
+          <div class="details">
+            <p class="name bold">Cristiano Ronaldo</p>
+            <p class="location">Lagos, Nigeria</p>
+          </div>
+        </div>
+
+        <div class="main-img">
+          <img src="img/ronaldo1.jpg" alt="">
+        </div>
+
+        <div class="interaction">
+          <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+
+          <p class="likes bold">14,382,195 likes</p>
+
+          <p class="comment"><span class="bold">elijahDEVinci</span>  You're the greatest football player alive. The G.O.A.T</p>
+        </div>
+      </section>
+    `
 
   }
 
