@@ -37,7 +37,7 @@ const posts = [
 
 let getCards = ""
 
-function renderCard() {
+function createCard() {
   for (let x in posts){
     const name = posts[x].name
     const username = posts[x].username
@@ -71,7 +71,7 @@ function renderCard() {
 
           <p class="likes bold">${likes} likes</p>
           
-          <p class="comment"><span class="bold">${username}</span>${comment}</p>
+          <p class="comment"><span class="bold">${username} </span>${comment}</p>
         </div>
       </section>
     `
@@ -80,7 +80,7 @@ function renderCard() {
       
 }
 
-renderCard()
+createCard()
 
 let cardEl = document.createElement("div")
 cardEl.innerHTML = getCards
