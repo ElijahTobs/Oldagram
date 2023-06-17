@@ -53,7 +53,7 @@ See the live by clicking [Live Demo Link](https://elijah-oldagram.vercel.app/)
 👤 **Elijah Ayandokun**
 
 - GitHub: [@ElijahTobs](https://github.com/ElijahTobs)
-- Twitter: [@ElijahTobs](https://twitter.com/elijahDevinci)
+- Twitter: [@elijahDEVinci](https://twitter.com/elijahDevinci)
 - LinkedIn: [Elijah Ayandokun](https://www.linkedin.com/in/elijahayandokun/)
 
 ## 🤝 Contributing
