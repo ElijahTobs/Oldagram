@@ -46,8 +46,7 @@ For tracking linter errors in CSS or SASS file, run:
 
 ## Live Demo
 
-See the live by clicking [Live Demo Link](https://elijah-oldagram.vercel.app
-/)
+See the live by clicking [Live Demo Link](https://elijah-oldagram.vercel.app/)
 
 ## Author
 
