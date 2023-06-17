@@ -1,3 +1,5 @@
+const container = document.getElementById("container")
+
 const posts = [
   {
     name: "Cristiano Ronaldo",
@@ -32,6 +34,8 @@ const posts = [
 
 ]
 
+let getCards = ""
+
 function renderCard() {
   for (let x in posts){
     const name = posts[x].name
@@ -43,34 +47,39 @@ function renderCard() {
     const comment = posts[x].comment
     const likes = posts[x].likes
 
-    const allCards = ""
-
     let card = `
-      <div class="top flex align-center bg-white">
-        <img class="small-img" src=${avatar} alt="">
-        <div class="details">
-          <p class="name bold">${name}</p>
-          <p class="location">${location}</p>
-        </div>
-      </div>
-
-      <div class="main-img">
-        <img src=${post} alt="">
-      </div>
-
-      <div class="interaction">
-        <div class="icons">
-          <i class="fa-regular fa-heart"></i>
-          <i class="fa-regular fa-comment"></i>
-          <i class="fa-regular fa-share-from-square"></i>
+      <section class="bg-white>
+      
+        <div class="top flex align-center bg-white">
+          <img class="small-img" src=${avatar} alt="">
+          <div class="details">
+            <p class="name bold">${name}</p>
+            <p class="location">${location}</p>
+          </div>
         </div>
 
-        <p class="likes bold">${likes} likes</p>
-        
-        <p class="comment"><span class="bold">${username}</span>${comment}</p>
-      </div>
+        <div class="main-img">
+          <img src=${post} alt="">
+        </div>
+
+        <div class="interaction">
+          <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-regular fa-share-from-square"></i>
+          </div>
+
+          <p class="likes bold">${likes} likes</p>
+          
+          <p class="comment"><span class="bold">${username}</span>${comment}</p>
+        </div>
+      </section>
     `
-    allCards += card
+    getCards += card
   }
       
 }
+
+renderCard()
+
+container.innerHTML += getCards
